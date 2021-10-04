@@ -1,0 +1,3 @@
+[submodule "EulerGameEngine/vendor/spdlog"]
+	path = EulerGameEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

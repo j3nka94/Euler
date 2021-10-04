@@ -30,12 +30,18 @@
     <ClInclude Include="src\EulerGameEngine\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\EulerGameEngine\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\EulerGameEngine\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EulerGameEngine\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
