@@ -20,6 +20,10 @@
       <Filter>EulerGameEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\Test.h" />
+    <ClInclude Include="src\EulerGameEngine\Events\Event.h" />
+    <ClInclude Include="src\EulerGameEngine\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\EulerGameEngine\Events\KeyEvent.h" />
+    <ClInclude Include="src\EulerGameEngine\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\EulerGameEngine\Application.cpp">
