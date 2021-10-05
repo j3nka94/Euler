@@ -10,7 +10,7 @@ namespace EulerEngine {
 	public:
 		inline int GetKeyCode() const { return m_KeyCode; }
 
-		Event_CLASS_CATEGORY(EVENT_CATEGORY_KEYBOARD | EVENT_CATEGORY_INPUT)
+		EVENT_CLASS_CATEGORY(EVENT_CATEGORY_KEYBOARD | EVENT_CATEGORY_INPUT)
 	protected:
 		KeyEvent(int keyCode)
 			: m_KeyCode(keyCode) {}
